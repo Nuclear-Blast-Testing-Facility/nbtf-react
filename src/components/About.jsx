@@ -34,7 +34,7 @@ function About() {
             </div>
             <div className="stat-card">
               <div className="stat-icon">⭐</div>
-              <div className="stat-number">90%+</div>
+              <div className="stat-number">88%+</div>
               <div className="stat-label">Positive Rating</div>
             </div>
             <div className="stat-card">
