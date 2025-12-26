@@ -140,8 +140,8 @@ function Roles() {
       name: "Volunteer",
       icon: "🤝",
       team: "Safety",
-      description: "Support various facility operations and assist where needed. Help with safety protocols and emergency procedures.",
-      responsibilities: ["General support", "Safety assistance", "Emergency aid"]
+      description: "Support various facility operations and assist where needed. Help maintain a safe environment for all personnel.",
+      responsibilities: ["General support", "Safety assistance", "Volunteering tasks"]
     },
     {
       name: "Janitor",

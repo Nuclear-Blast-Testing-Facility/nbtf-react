@@ -16,7 +16,7 @@ function App() {
       <Features />
       <Community />
       <footer className="footer">
-        <p>&copy; 2025 NBTF Fan Website. Not affiliated with Ryanblaze or Roblox Corporation.</p>
+        <p>&copy; 2025 NBTF Website. Not affiliated with Ryanblaze, Affiliated with nbtf.ca</p>
       </footer>
     </div>
   )
