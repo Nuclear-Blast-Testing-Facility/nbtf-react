@@ -1,0 +1,70 @@
+:root {
+  --primary-color: #ff6b00;
+  --secondary-color: #1a1a1a;
+  --accent-color: #ffaa00;
+  --danger-color: #ff0000;
+  --text-light: #ffffff;
+  --text-dark: #333333;
+  --bg-dark: #0a0a0a;
+  --bg-section: #1a1a1a;
+  --glow-orange: 0 0 20px rgba(255, 107, 0, 0.5);
+  --glow-red: 0 0 20px rgba(255, 0, 0, 0.5);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4 {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+  }
+  
+  h3 {
+    font-size: 1.4rem;
+  }
+  
+  .container {
+    padding: 0 1rem;
+  }
+}
