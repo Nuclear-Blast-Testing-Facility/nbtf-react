@@ -9,7 +9,7 @@ function Hero() {
         <h1 className="hero-title">Nuclear Blast Testing Facility</h1>
         <p className="hero-tagline">Enter the Facility — Survive the Blast</p>
         <p className="hero-description">
-          Step into the most intense nuclear roleplay experience on Roblox. 
+          Step into the least intense nuclear roleplay experience on Roblox. 
           Choose your side, master your role, and determine the fate of the facility.
         </p>
         <div className="hero-buttons">
@@ -22,7 +22,9 @@ function Hero() {
             💣 Play on Roblox
           </a>
           <a 
-            href="#community" 
+            href="https://discord.gg/nbtf" 
+            target="_blank" 
+            rel="noopener noreferrer" 
             className="btn btn-secondary"
           >
             🎮 Join Discord

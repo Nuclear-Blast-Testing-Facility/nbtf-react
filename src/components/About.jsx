@@ -29,7 +29,7 @@ function About() {
           <div className="stats-grid">
             <div className="stat-card">
               <div className="stat-icon">👥</div>
-              <div className="stat-number">10M+</div>
+              <div className="stat-number">40M+</div>
               <div className="stat-label">Total Visits</div>
             </div>
             <div className="stat-card">
@@ -39,7 +39,7 @@ function About() {
             </div>
             <div className="stat-card">
               <div className="stat-icon">🎮</div>
-              <div className="stat-number">Active</div>
+              <div className="stat-number">400+</div>
               <div className="stat-label">Daily Players</div>
             </div>
             <div className="stat-card">

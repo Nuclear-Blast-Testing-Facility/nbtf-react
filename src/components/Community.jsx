@@ -21,7 +21,7 @@ function Community() {
               Join our active Discord community to chat with players, get real-time updates, 
               participate in events, and connect with the development team.
             </p>
-            <a href="#" className="btn btn-discord">Join Discord</a>
+            <a href="https://discord.gg/nbtf" target="_blank" rel="noopener noreferrer" className="btn btn-discord">Join Discord</a>
           </div>
 
           <div className="community-card">
@@ -43,7 +43,7 @@ function Community() {
               Stay informed about the latest game updates, new features, events, and 
               community highlights. Never miss important announcements.
             </p>
-            <a href="#" className="btn btn-updates">Get Updates</a>
+            <a href="https://discord.gg/nbtf" className="btn btn-updates">Get Updates</a>
           </div>
         </div>
 
@@ -54,23 +54,23 @@ function Community() {
               <span className="link-icon">🚀</span>
               <span>Play Now</span>
             </a>
-            <a href="#" className="quick-link">
+            <a href="https://nbtf.fandom.com/wiki/Nuclear_Blast_Testing_Facility_Wiki" className="quick-link">
               <span className="link-icon">📖</span>
               <span>Game Guide</span>
             </a>
-            <a href="#" className="quick-link">
+            <a href="https://nbtf.fandom.com/wiki/Nuclear_Blast_Testing_Facility_Wiki" className="quick-link">
               <span className="link-icon">🎯</span>
               <span>Wiki</span>
             </a>
-            <a href="#" className="quick-link">
+            <a href="https://www.rolimons.com/game/6153709" className="quick-link">
               <span className="link-icon">📊</span>
               <span>Statistics</span>
             </a>
-            <a href="#" className="quick-link">
+            <a href="https://www.rolimons.com/game/6153709" className="quick-link">
               <span className="link-icon">🏆</span>
               <span>Leaderboards</span>
             </a>
-            <a href="#" className="quick-link">
+            <a href="https://discord.gg/nbtf" className="quick-link">
               <span className="link-icon">🎨</span>
               <span>Fan Art</span>
             </a>

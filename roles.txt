@@ -1,0 +1,28 @@
+Civilian, Neutral
+Commando, Rebellion
+Core Engineer, Scientist
+Council Executive, Executive
+Delivery Driver, Logistics
+Exterior Guard, Security
+Facility Director, Executive
+Factory Personnel, Safety but also Logistics
+Government Official, Government
+Hitman, Rebellion
+Infantry Soldier, Military
+Intelligence Agent, Government
+Internal Security, Security
+Maintenance Team, Safety
+Medic, Safety
+Military Officer, Military
+Overseer, Rebellion
+Protection Service, Government
+Raid Leader, Rebellion
+Raider, Rebellion
+Rocket Scientist, Scientist
+Security Supervisor, Security
+Special Task Force, Military
+Spy, Rebellion
+Volunteer, Safety
+Warlord, Rebellion
+Janitor, Safety
+Military Police. Military
