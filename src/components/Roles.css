@@ -1,0 +1,146 @@
+.roles {
+  padding: 6rem 0;
+  background: linear-gradient(180deg, var(--bg-section) 0%, var(--bg-dark) 100%);
+}
+
+.roles-intro {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #ccc;
+  max-width: 800px;
+  margin: 0 auto 4rem;
+  line-height: 1.8;
+}
+
+.roles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.role-card {
+  background: rgba(26, 26, 26, 0.8);
+  border: 2px solid rgba(255, 107, 0, 0.3);
+  border-radius: 16px;
+  padding: 2rem;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.role-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.role-card:hover::before {
+  transform: scaleX(1);
+}
+
+.role-card:hover {
+  transform: translateY(-8px);
+  border-color: var(--primary-color);
+  box-shadow: var(--glow-orange);
+}
+
+.role-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.role-icon {
+  font-size: 3rem;
+}
+
+.role-team-badge {
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.team-facility .role-team-badge {
+  background: rgba(0, 150, 255, 0.2);
+  color: #00aaff;
+  border: 1px solid #00aaff;
+}
+
+.team-rebels .role-team-badge {
+  background: rgba(255, 0, 0, 0.2);
+  color: #ff4444;
+  border: 1px solid #ff4444;
+}
+
+.team-neutral .role-team-badge {
+  background: rgba(200, 200, 200, 0.2);
+  color: #cccccc;
+  border: 1px solid #cccccc;
+}
+
+.role-card h3 {
+  color: var(--accent-color);
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.role-description {
+  color: #bbb;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.role-responsibilities h4 {
+  color: var(--primary-color);
+  font-size: 1rem;
+  margin-bottom: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.role-responsibilities ul {
+  list-style: none;
+  padding: 0;
+}
+
+.role-responsibilities ul li {
+  color: #999;
+  padding: 0.4rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+  font-size: 0.95rem;
+}
+
+.role-responsibilities ul li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .roles {
+    padding: 4rem 0;
+  }
+  
+  .roles-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .role-card {
+    padding: 1.5rem;
+  }
+}

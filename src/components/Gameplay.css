@@ -1,0 +1,99 @@
+.gameplay {
+  padding: 6rem 0;
+  background: var(--bg-section);
+}
+
+.gameplay-intro {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 4rem;
+}
+
+.gameplay-intro p {
+  font-size: 1.2rem;
+  color: #ccc;
+  line-height: 1.8;
+}
+
+.gameplay-intro strong {
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.gameplay-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.gameplay-card {
+  background: rgba(255, 107, 0, 0.05);
+  border: 2px solid rgba(255, 107, 0, 0.2);
+  border-radius: 16px;
+  padding: 2.5rem;
+  transition: all 0.3s ease;
+}
+
+.gameplay-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--primary-color);
+  box-shadow: var(--glow-orange);
+  background: rgba(255, 107, 0, 0.1);
+}
+
+.card-icon {
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.gameplay-card h3 {
+  color: var(--accent-color);
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.gameplay-card p {
+  color: #bbb;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.gameplay-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.gameplay-card ul li {
+  color: #999;
+  padding: 0.5rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.gameplay-card ul li::before {
+  content: "▶";
+  position: absolute;
+  left: 0;
+  color: var(--primary-color);
+  font-size: 0.8rem;
+}
+
+@media (max-width: 768px) {
+  .gameplay {
+    padding: 4rem 0;
+  }
+  
+  .gameplay-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .gameplay-card {
+    padding: 2rem;
+  }
+  
+  .card-icon {
+    font-size: 2.5rem;
+  }
+}

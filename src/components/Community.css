@@ -1,0 +1,187 @@
+.community {
+  padding: 6rem 0;
+  background: linear-gradient(180deg, var(--bg-dark) 0%, var(--bg-section) 50%, var(--bg-dark) 100%);
+}
+
+.community-intro {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 4rem;
+}
+
+.community-intro p {
+  font-size: 1.2rem;
+  color: #ccc;
+  line-height: 1.8;
+}
+
+.community-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2.5rem;
+  margin-bottom: 5rem;
+}
+
+.community-card {
+  background: rgba(26, 26, 26, 0.8);
+  border: 2px solid rgba(255, 107, 0, 0.3);
+  border-radius: 20px;
+  padding: 3rem;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.community-card:hover {
+  transform: translateY(-10px);
+  border-color: var(--primary-color);
+  box-shadow: var(--glow-orange);
+}
+
+.community-icon {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.community-card h3 {
+  color: var(--accent-color);
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.community-card p {
+  color: #bbb;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+
+.btn-discord {
+  background: #5865F2;
+  color: white;
+}
+
+.btn-discord:hover {
+  background: #4752C4;
+  transform: translateY(-2px);
+}
+
+.btn-roblox {
+  background: #E74C3C;
+  color: white;
+}
+
+.btn-roblox:hover {
+  background: #C0392B;
+  transform: translateY(-2px);
+}
+
+.btn-updates {
+  background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+  color: white;
+}
+
+.btn-updates:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--glow-orange);
+}
+
+.quick-links {
+  margin: 5rem 0;
+  text-align: center;
+}
+
+.quick-links h3 {
+  color: var(--primary-color);
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.links-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.quick-link {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.2rem 1.5rem;
+  background: rgba(255, 107, 0, 0.1);
+  border: 2px solid rgba(255, 107, 0, 0.3);
+  border-radius: 12px;
+  color: #ddd;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-weight: 600;
+}
+
+.quick-link:hover {
+  background: rgba(255, 107, 0, 0.2);
+  border-color: var(--primary-color);
+  transform: translateX(5px);
+  color: var(--accent-color);
+}
+
+.link-icon {
+  font-size: 1.5rem;
+}
+
+.cta-section {
+  text-align: center;
+  margin-top: 6rem;
+  padding: 4rem 2rem;
+  background: radial-gradient(circle, rgba(255, 107, 0, 0.1) 0%, transparent 70%);
+  border-radius: 20px;
+}
+
+.cta-section h2 {
+  font-size: 2.5rem;
+  color: var(--accent-color);
+  margin-bottom: 1rem;
+}
+
+.cta-section p {
+  font-size: 1.2rem;
+  color: #ccc;
+  margin-bottom: 2rem;
+}
+
+.btn-large {
+  padding: 1.5rem 3rem;
+  font-size: 1.4rem;
+}
+
+@media (max-width: 768px) {
+  .community {
+    padding: 4rem 0;
+  }
+  
+  .community-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .community-card {
+    padding: 2rem;
+  }
+  
+  .links-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .cta-section {
+    padding: 3rem 1.5rem;
+  }
+  
+  .cta-section h2 {
+    font-size: 1.8rem;
+  }
+  
+  .btn-large {
+    padding: 1.2rem 2rem;
+    font-size: 1.1rem;
+  }
+}
